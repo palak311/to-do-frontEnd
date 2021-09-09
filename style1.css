@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+.heading{
+	text-align: center;
+	font-size: 40px;
+}
+
+.formdiv{
+	width: 380px;
+	height: 128px;
+	margin: auto;
+	background-color: #f9f9f9;
+	padding: 15px;
+}
+
+.formdiv:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#input {
+	margin: 25px top;
+	display: block;
+	width: 330px;
+	font-size: 27px;
+
+}
+
+.add {
+	position: relative;
+	left: 272px;
+	margin: 7px auto;
+	font-size: 24px;
+	cursor: pointer;
+	background: #d9d9d9;
+	color: black;
+}
+
+.add:hover {
+	background-color: #bbb;
+}
+
+#myUL {
+	text-align: center;
+	user-select: none;	/* to make the list items unselectable */
+	margin: 0; 
+	padding: 0;
+	list-style-type: none;
+}
+
+ul li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	cursor: pointer;
+	font-size: 20px;
+}
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+ul li:hover {
+  background: #ddd;
+}
+
+.checked {
+  background: #888;
+  color: white;
+  text-decoration: line-through;
+}
+
+
+
+/*remove button*/
+.remove {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.remove:hover {
+  background-color: gray;
+  color:black;
+}
